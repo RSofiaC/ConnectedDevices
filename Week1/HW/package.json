@@ -1,0 +1,14 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "Simple test app",
+  "main": "hw1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "RSofiaC"
+  ],
+  "author": "",
+  "license": "ISC"
+}
