@@ -1,0 +1,16 @@
+{
+  "name": "hw1_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hw1_2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "ejs": "^2.5.7",
+    "express": "*"
+  },
+  "author": "RSofiaC",
+  "license": "ISC"
+}
