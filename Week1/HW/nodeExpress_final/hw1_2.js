@@ -38,29 +38,29 @@ app.use(expressValidator({
 }));
 
 var users = [
-  {
-  id:1,
-  first_name: 'Jhon',
-  last_name: 'Doe',
-  email: 'juju'
-},
-  {
-  id:2,
-  first_name: 'Sam',
-  last_name: 'Luis',
-  email: 'juju'
-},
-  {
-  id:3,
-  first_name: 'Uva',
-  last_name: 'Doe',
-  email: 'juju'
-  }
+//   {
+//   id:1,
+//   first_name: 'Jhon',
+//   last_name: 'Doe',
+//   email: 'juju'
+// },
+//   {
+//   id:2,
+//   first_name: 'Sam',
+//   last_name: 'Luis',
+//   email: 'juju'
+// },
+//   {
+//   id:3,
+//   first_name: 'Uva',
+//   last_name: 'Doe',
+//   email: 'juju'
+//   }
 ]
 
 app.get('/', function(req, res){
   res.render('index',{
-    title:'Costumers',
+    //title:'Costumers',
     users: users
   });
 });
