@@ -1,0 +1,16 @@
+{
+  "name": "nodeexpress_intro",
+  "version": "1.0.0",
+  "description": "simple management app",
+  "main": "hw1_1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "ejs": "^2.5.7",
+    "express": "*"
+  },
+  "author": "RSofiaC",
+  "license": "ISC"
+}
