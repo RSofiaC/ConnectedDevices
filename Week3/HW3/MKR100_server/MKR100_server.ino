@@ -1,3 +1,8 @@
+//HW3
+//Connected Devices Spring 2018
+//by RSofiaC
+//using example code from Tom Igoe's book "Making things talk" Chapter 4 Excercise 6
+
 #include <SPI.h>
 #include <WiFi101.h>
 #include"config.h"
