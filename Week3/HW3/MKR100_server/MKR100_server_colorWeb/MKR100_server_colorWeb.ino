@@ -54,6 +54,50 @@ String makeResponse(){
   result += "Content-Type: text/html\n\n";
   result += "<!doctype>\n";
   result += "<html><head><title>";
+  result += "Hello from Arduino </title></head>";
+  result += "<meta http-equiv=\"refresh\" content=\"2\">";
+  result += "\n<body>\n";
+
+  result += "<body style='background-color:#";
+
+  int red = analogRead(A0) /4;
+  int green = analogRead(A1) /4;
+  int blue = analogRead(A2) /4;
+
+  result += String(red, HEX);
+  result += String(green, HEX);
+  result += String(blue, HEX);
+
+  result += ";'>";
+
+  result += "<p style= color:red;font-size:46px; position: fixed;top: 50%;left: 50%;margin-top: -100px;margin-left: -200px;><strong>MADE BY TANGIBLE STUFFZ</strong> </p>";
+
+   
+//  result += String(red, HEX);
+//  result += String(green, HEX);
+//  result += String(blue, HEX);
+
+  result += "</body></html>\n\n";
+  return result;
+}
+
+
+      client.println(response);
+  delay (10);
+  if (client.connected()) {
+  client.stop();
+  }
+  }
+  }
+ }
+
+}
+
+String makeResponse(){
+  String result = "HTTP /1.1 200 OK\n";
+  result += "Content-Type: text/html\n\n";
+  result += "<!doctype>\n";
+  result += "<html><head><title>";
   result += "Hello from Arduino </title>,/head>";
   result += "<meta http-equiv=\"refresh\" content=\"3\">";
   result += "\n<body>\n";
